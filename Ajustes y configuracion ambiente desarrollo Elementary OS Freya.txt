@@ -1,0 +1,52 @@
+Ajustes y Configuracion ambiente de desarrollo en Elementary OS
+
+Habilitar repositorios Cannonical e Independientes
+
+Instalar extras y paquetes restringidos, que entre otros incluye:
+
+ttf-mscorefonts-installer
+flashplugin installer
+
+sudo apt-get install ubuntu-restricted-extras
+
+Instalar Elementary Tweaks
+
+sudo add-apt-repository ppa:mpstark/elementary-tweaks-daily
+sudo apt-get update
+sudo apt-get install elementary-tweaks
+
+Instalar Libre Office
+
+sudo apt-get install libreoffice
+
+Instalar Skype
+
+sudo apt-get install skype
+
+- sudo apt-get update
+
+Instalar Firefox
+
+sudo apt-get install firefox
+
+Instalar sublime Text 3
+
+sudo add-apt-repository ppa:webupd8team/sublime-text-3
+sudo apt-get update
+sudo apt-get install sublime-text-installer
+
+Instalar Java JDK 7 - Oracle
+
+sudo add-apt-repository ppa:webupd8team/java
+sudo apt-get update
+sudo apt-get install oracle-java6-installer
+sudo apt-get install oracle-java7-installer
+sudo apt-get install oracle-java8-installer
+
+Instalar PHP 5
+
+sudo apt-get install php php5-cli
+
+verificar version instalada :
+php --version
+
